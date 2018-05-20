@@ -12,12 +12,12 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html">
-            <img src="images/logo.png" alt="logo">
-        </a>
 
-        <nav>
+
+<div class="grid-container">
+  <div class="item1">
+      <img src="images/logo.png" alt="#" class="logo">
+      <nav>
             <div class="dropdown">
                 <button class="dropbtn">Købsguide</button>
                 <div class="dropdown-content">
@@ -52,169 +52,116 @@
                 </div>
             </div>
         </nav>
-    </header>
-
-    <!--Her skulle der have været en "slider" med et stort billede til vestre (artikel med en lille "teaser" tekst) og 3 andre ude til højre i en "liste-form", som den så skulle skifte imellem automatisk. Men det aner jeg ikke hvordan man laver, så derfor er der bare tomt.-->
-    
-    <!--Udover de to "slides" (både til mobil og PC) mangler jeg også at få billederne på forsiden til at ligge vandret (3 ved siden af hinanden i hver "kategori") på PC, Burger Menu på mobil og at få billederne på de 2 artikel ("Eksponering" og "Tilbehør") til at passe bedre på PC-version-->
-
-    <img src="images/slider.png" alt="#" id="slidebillede">
-    <!--skulle være en fungerende slider på mobil/tablet-->
-
-    <h1 class="h1forside">Nyeste</h1>
-    
-    <div class="row">
-        <div class="column">
-           <a href="hvilket_kamera.html">
-            <img src="images/system.jpg" alt="Sytemkamera" class="artikel">
-            </a>
-        </div>
-        <div class="column">
-           <a href="hvilket_kamera.html">
-            <h2 class="h2forside">Hvilket kamera?</h2>
-            </a>
-            <p class="pforside">Er du i tvivl om hvilket kamera der passer bedst til dine behov?</p>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="column">
-           <a href="kom_godt_igang.html">
-            <img src="images/kgi.jpg" alt="Kom godt i gang" class="artikel">
-            </a>
-        </div>
-        <div class="column">
-           <a href="kom_godt_igang.html">
-            <h2 class="h2forside">Eksponering</h2>
-            </a>
-            <p class="pforside">Kom godt i gang med det vigtigste på dit kamera.</p>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="column">
-            <img src="images/lightroom.jpg" alt="lightroom" class="artikel">
-        </div>
-        <div class="column">
-            <h2 class="h2forside">Lightroom CC</h2>
-            <p class="pforside">5 gode tips og tricks til Lightroom CC</p>
-        </div>
-    </div>
-    
-    <h1 class="h1forside">Købsguide</h1>
-    
-    <div class="row">
-        <div class="column">
-           <a href="hvilket_kamera.html">
-            <img src="images/system.jpg" alt="systemkamera" class="artikel">
-            </a>
-        </div>
-        <div class="column">
-            <h2 class="h2forside">Hvilket kamera?</h2>
-            <p class="pforside">Er du i tvivl om hvilket kamera der passer bedst til dine behov?</p>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="column">
-            <img src="images/objektiv.jpg" alt="objektiv" class="artikel">
-        </div>
-        <div class="column">
-            <h2 class="h2forside">Hvilket objektiv?</h2>
-            <p class="pforside">Hvilke objektiver findes der og hvad har du brug for?</p>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="column">
-           <a href="tilbehoer.html">
-            <img src="images/stativ" alt="kamerastativ" class="artikel">
-            </a>
-        </div>
-        <div class="column">
-           <a href="tilbehoer.html">
-            <h2 class="h2forside">Hvilket tilbehør?</h2>
-            </a>
-            <p class="pforside">Hvad får man brug for af udstyr og er det nødvendigt?</p>
-        </div>
-    </div>
-    
-    <h1 class="h1forside">Det tekniske</h1>
-    
-    <div class="row">
-        <div class="column">
-           <a href="kom_godt_igang.html">
-            <img src="images/kgi.jpg" alt="kom godt i gang" class="artikel">
-            </a>
-        </div>
-        <div class="column">
-           <a href="kom_godt_igang.html">
-            <h2 class="h2forside">Eksponering</h2>
-            </a>
-            <p class="pforside">Kom godt i gang med det vigtigste på dit kamera</p>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="column">
-            <img src="images/artikel.jpg" alt="artikel" class="artikel">
-        </div>
-        <div class="column">
-            <h2 class="h2forside">Artikel</h2>
-            <p class="pforside">Introduktion til denne artikel her</p>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="column">
-            <img src="images/artikel.jpg" alt="artikel" class="artikel">
-        </div>
-        <div class="column">
-            <h2 class="h2forside">Artikel</h2>
-            <p class="pforside">Introduktion til denne artikel her</p>
-        </div>
-    </div>
-
-    <h1 class="h1forside">Programmer</h1>
-    
-    <div class="row">
-        <div class="column">
-            <img src="images/lightroom.jpg" alt="lightroom" class="artikel">
-        </div>
-        <div class="column">
-            <h2 class="h2forside">Lightroom CC</h2>
-            <p class="pforside">5 gode tips og tricks til Lightroom CC</p>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="column">
-            <img src="images/photoshop.jpg" alt="photoshop" class="artikel">
-        </div>
-        <div class="column">
-            <h2 class="h2forside">Photoshop CC</h2>
-            <p class="pforside">Kom godt i gang med redigering af dine billeder i Photoshop CC</p>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="column">
-            <img src="images/apps.jpg" alt="apps" class="artikel">
-        </div>
-        <div class="column">
-            <h2 class="h2forside">Apps</h2>
-            <p class="pforside">5 gratis apps du kan downloade og bruge på farten</p>
-        </div>
-    </div>
-
-    <footer>
-        <a href="https://da-dk.facebook.com/" target="_blank">
-        <img src="images/facebook.png" alt="facebook">
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-        <img src="images/instagram.png" alt="instagram">
-        </a>
-    </footer>
+  </div>
+  
+  <div class="item2">
+     <h1 class="h1forside">Nyeste</h1>
+      <div class="flex-container">
+          <div>
+             <a href="hvilket_kamera.html">
+              <img src="images/system.jpg" alt="#" class="i1">
+              </a>
+              <h2 class="h2forside">Hvilket kamera?</h2>
+              <p class="pforside">Er du i tvivl om hvilket kamera der passer bedst til dine behov?</p>
+          </div>
+          <div>
+             <a href="kom_godt_igang.html">
+              <img src="images/kgi.jpg" alt="#" class="i1">
+              </a>
+              <h2 class="h2forside">Eksponering</h2>
+              <p class="pforside">Kom godt i gang med det vigtigste på dit kamera.</p>
+          </div>
+          <div>
+             <a href="#">
+              <img src="images/lightroom.jpg" alt="#" class="i1">
+              </a>
+              <h2 class="h2forside">Lightroom CC</h2>
+              <p class="pforside">5 gode tips og tricks til Lightroom CC</p>
+          </div>
+      </div>
+  </div>
+  
+  <div class="item3">
+     <h1 class="h1forside">Købsguide</h1>
+      <div class="flex-container">
+          <div>
+             <a href="hvilket_kamera.html">
+              <img src="images/system.jpg" alt="#" class="i1">
+              </a>
+              <h2 class="h2forside">Hvilket kamera?</h2>
+              <p class="pforside">Er du i tvivl om hvilket kamera der passer bedst til dine behov?</p>
+          </div>
+          <div>
+             <a href="#">
+              <img src="images/objektiv.jpg" alt="#" class="i1">
+              </a>
+              <h2 class="h2forside">Hvilket objektiv?</h2>
+              <p class="pforside">Hvilke objektiver findes der og hvad har du brug for?</p>
+          </div>
+          <div>
+             <a href="tilbehoer.html">
+              <img src="images/stativ" alt="#" class="i1">
+              </a>
+              <h2 class="h2forside">Hvilket tilbehør?</h2>
+              <p class="pforside">Hvad får man brug for af udstyr og er det nødvendigt?</p>
+          </div>
+      </div>
+  </div>
+  
+  <div class="item4">
+     <h1 class="h1forside">Det tekniske</h1>
+      <div class="flex-container">
+          <div>
+             <a href="kom_godt_igang.html">
+              <img src="images/kgi.jpg" alt="#" class="i1">
+              </a>
+              <h2 class="h2forside">Eksponering</h2>
+              <p class="pforside">Kom godt i gang med det vigtigste på dit kamera</p>
+          </div>
+          <div>
+              <img src="images/artikel.jpg" alt="#" class="i1">
+              <h2 class="h2forside">Artikel</h2>
+              <p class="pforside">Introduktion til denne artikel her</p>
+          </div>
+          <div>
+              <img src="images/artikel.jpg" alt="#" class="i1">
+              <h2 class="h2forside">Artikel</h2>
+              <p class="pforside">Introduktion til denne artikel her</p>
+          </div>
+      </div>
+  </div>
+  
+  <div class="item5">
+     <h1 class="h1forside">Programmer</h1>
+      <div class="flex-container">
+          <div>
+             <a href="#">
+              <img src="images/lightroom.jpg" alt="#" class="i1">
+              </a>
+              <h2 class="h2forside">Lightroom CC</h2>
+              <p class="pforside">5 gode tips og tricks til Lightroom CC</p>
+          </div>
+          <div>
+             <a href="#">
+              <img src="images/photoshop.jpg" alt="#" class="i1">
+              </a>
+              <h2 class="h2forside">Photoshop CC</h2>
+              <p class="pforside">Kom godt i gang med redigering af dine billeder i Photoshop CC</p>
+          </div>
+          <div>
+             <a href="#">
+              <img src="images/apps.jpg" alt="#" class="i1">
+              </a>
+              <h2 class="h2forside">Apps</h2>
+              <p class="pforside">5 gratis apps du kan downloade og bruge på farten</p>
+          </div>
+      </div>
+  </div>
+  
+  <div class="item6">
+  </div>
+  
+</div>
 
 </body>
 </html>
