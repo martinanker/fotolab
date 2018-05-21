@@ -230,7 +230,7 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #e9e9e9;
+    background-color: #efefef;
     min-width: 135%;
     z-index: 1;
 }
